@@ -7,4 +7,6 @@ Backend for an AI-powered chatbot at Jobeyze — async FastAPI services, Scrapy-
 GenAI pipeline at HCLTech that extracts and structures data from PDF contracts end-to-end
 DeepSecure — dual-layer deepfake and malware detection using CNNs, MFCCs, and temporal analysis
 
-Reach me: soniarnav19@gmail.com · LinkedIn
+Reach me: soniarnav19@gmail.com · www.linkedin.com/in/arnav-soni-7a706b2b4
+
+
