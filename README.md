@@ -64,7 +64,7 @@ AI immigration chatbot + top-3 job matching from a resume. Scrapy pipelines **re
 | **[BERT LoRA Fine-Tuning](https://github.com/Arnav-77/REPO)** | PyTorch · HuggingFace · LoRA from scratch · CI | ~95% of full fine-tuning accuracy (87.9% vs 92.7%) at 1.1% trainable params, ~38% less GPU memory. Warmup + early stopping took r=8 from 45% → 84%. |
 | **[Stateful Research Agent](https://github.com/Arnav-77/REPO)** | Python · TF-IDF retrieval · rule-based grounding | 5-step retrieve → extract → draft → critique → revise loop, with an HTML trace viewer (latency, tokens, critic verdicts, diffs). |
 
-<!-- UNIQUE ANIMATED SVG GOES HERE (see instructions) -->
+   <p align="center"><img src="./assets/lora-inference.svg" width="100%" alt="BERT-LoRA inference animation"/></p>
 
 <details>
 <summary><b>🔍 How setup beat rank in my LoRA sweep</b></summary>
