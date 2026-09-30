@@ -55,12 +55,39 @@ AI immigration chatbot + top-3 job matching from a resume. Scrapy pipelines **re
 </tr>
 </table>
 
+---
+
 ## Featured Projects
 
 | Project | Stack | Result |
 |---|---|---|
 | **[BERT LoRA Fine-Tuning](https://github.com/Arnav-77/REPO)** | PyTorch · HuggingFace · LoRA from scratch · CI | ~95% of full fine-tuning accuracy (87.9% vs 92.7%) at 1.1% trainable params, ~38% less GPU memory. Warmup + early stopping took r=8 from 45% → 84%. |
 | **[Stateful Research Agent](https://github.com/Arnav-77/REPO)** | Python · TF-IDF retrieval · rule-based grounding | 5-step retrieve → extract → draft → critique → revise loop, with an HTML trace viewer (latency, tokens, critic verdicts, diffs). |
+
+<!-- UNIQUE ANIMATED SVG GOES HERE (see instructions) -->
+
+<details>
+<summary><b>🔍 How setup beat rank in my LoRA sweep</b></summary>
+
+<br>
+
+At r=8, LoRA stalled at **45%** accuracy. Adding LR warmup + early stopping — with no change to rank — pushed it to **84%**. Takeaway: fix the training setup before tuning rank.
+
+</details>
+
+<details>
+<summary><b>🧠 Research agent architecture</b></summary>
+
+<br>
+
+```mermaid
+flowchart LR
+  Q[Query] --> R[Retrieve<br/>TF-IDF] --> E[Extract] --> D[Draft] --> C{Critic:<br/>grounded?}
+  C -- no --> V[Revise] --> C
+  C -- yes --> A[Answer]
+```
+
+</details>
 
 ---
 
@@ -103,4 +130,17 @@ AI immigration chatbot + top-3 job matching from a resume. Scrapy pipelines **re
 
 </div>
 
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arnav-77/Arnav-77/output/github-snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Arnav-77/Arnav-77/output/github-snake.svg" />
+</picture>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Arnav-77&color=6366F1&style=for-the-badge&label=PROFILE+VIEWS)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+</div>
